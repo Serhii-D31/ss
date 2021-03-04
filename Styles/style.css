@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-section {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+}
+
+.about-me-information {
+    padding-top: 80px;
+}
+.avatar {
+    height: 300px;
+}
+
+hr {
+    width: 1200px;
+    border: 1px dashed #32a1ce;
+}
+
+.my-education-section {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(220, 252, 234);
+    margin: 0 auto;
+}
+
+.my-education-places {
+    margin: 0 auto;
+}
+.my-work-experience-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: thick double #32a1ce;
+    width: 900px;
+    background-color: rgb(220, 252, 234);
+}
+
+.my-work-expirience-hidden {
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.experience-hidden-1 {
+    width: 200px;
+}
+
+.experience-hidden-2 {
+    width: 200px;
+}
+
+.my-work-expirience-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-md-4 {
+    width: 200px;
+    margin: 0;
+    text-align: center;
+}
+
+.col-md-8 {
+    width: 200px;
+    margin: 0;
+    text-align: center;
+}
+
+.my-scills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    background-color: rgb(220, 252, 234);
+}
+
+.scills-list {
+    list-style-type: none;
+}
